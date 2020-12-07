@@ -8,3 +8,5 @@ yum install -y docker-ce --allowerasing
 yum install -y docker-ce docker-ce-cli containerd.io
 systemctl start docker
 systemctl status  docker
+# To Automatically Start Docker Services:
+sudo systemctl enable docker 
